@@ -135,7 +135,7 @@ public class VarastoTest {
     public void uudellaVarastollaOikeaAlkuSaldo() {
         varasto2 = new Varasto(10, 5);
         
-        assertEquals(5, varasto2.getSaldo(), vertailuTarkkuus);
+        assertEquals(10, varasto2.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
