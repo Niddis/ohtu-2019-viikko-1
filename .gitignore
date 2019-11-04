@@ -1,4 +1,4 @@
 *.tmp
-build/
-.gradle/
+/build/
+/.gradle/
 /.nb-gradle/
